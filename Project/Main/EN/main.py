@@ -10,6 +10,14 @@ script_version = '4.0.0'
 window_title   = f"WARP-PLUS-CLOUDFLARE By Navaneeth K M (version {script_version})"
 os.system('title ' + window_title if os.name == 'nt' else 'PS1="\[\e]0;' + window_title + '\a\]"; echo $PS1')
 os.system('cls' if os.name == 'nt' else 'clear')
+
+print("  _    _   ___  ______ ______         ______  _      _   _  _____  ")
+print(" | |  | | / _ \ | ___ \| ___ \        | ___ \| |    | | | |/  ___| ")
+print(" | |  | |/ /_\ \| |_/ /| |_/ / ______ | |_/ /| |    | | | |\ `--.  ")
+print(" | |/\| ||  _  ||    / |  __/ |______||  __/ | |    | | | | `--. \ ")
+print(" \  /\  /| | | || |\ \ | |            | |    | |____| |_| |/\__/ / ")
+print("  \/  \/ \_| |_/\_| \_|\_|            \_|    \_____/ \___/ \____/  ")
+
 print ("[+] ABOUT SCRIPT:")
 print ("[-] With this script, you can getting unlimited GB on Warp+.")
 print (f"[-] Version: {script_version}")
@@ -18,6 +26,13 @@ print ("[+] THIS SCRIPT CODDED BY Navaneeth K M")
 print ("[-] SITE: https://navaneethkm.gq") 
 print ("[-] TELEGRAM: navaneethkm004")
 print ("--------")
+
+print(" ||   / |  / /     // | |     //   ) )     //   ) )           //   ) )      / /        //   / /     //   ) )  ")
+print(" ||  /  | / /     //__| |    //___/ /     //___/ /           //___/ /      / /        //   / /     ((         ")
+print(" || / /||/ /     / ___  |   / ___ (      / ____ /   ____    / ____ /      / /        //   / /        \\       ")
+print(" ||/ / |  /     //    | |  //   | |     //                 //            / /        //   / /           ) )    ")
+print(" |  /  | /     //     | | //    | |    //                 //            / /____/ / ((___/ /     ((___ / /     ")
+
 referrer  = input("[#] Enter the User ID:")
 def progressBar():
 	animation     = ["[□□□□□□□□□□]","[■□□□□□□□□□]","[■■□□□□□□□□]", "[■■■□□□□□□□]", "[■■■■□□□□□□]", "[■■■■■□□□□□]", "[■■■■■■□□□□]", "[■■■■■■■□□□]", "[■■■■■■■■□□]", "[■■■■■■■■■□]"]
