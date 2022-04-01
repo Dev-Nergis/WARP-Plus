@@ -42,7 +42,7 @@ def progressBar():
 	while True:
 		for i in range(10):
 			percent += 1
-			sys.stdout.write(f"\r[+] Waiting response...  " + save_anim + f" {percent}%")
+			sys.stdout.write(f"\r[+] 응답 대기 중...  " + save_anim + f" {percent}%")
 			sys.stdout.flush()
 			time.sleep(0.075)
 		progress_anim += 1
