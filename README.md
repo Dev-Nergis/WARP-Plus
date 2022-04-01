@@ -1,4 +1,4 @@
-[![warp-plus](https://github-readme-stats.vercel.app/api/pin/?username=navaneethkm004&repo=warp-plus&theme=dark)](https://github.com/navaneethkm004/warp-plus)<br/>
+[![warp-plus](https://github-readme-stats.vercel.app/api/pin/?username=Dev-Nergis&repo=WARP-Plus&theme=white)](https://github.com/Dev-Nergis/WARP-Plus)<br/>
 
 [![Run on Repl.it](https://repl.it/badge/github/navaneethkm004/warp-plus)](https://repl.it/github/navaneethkm004/warp-plus)
 
