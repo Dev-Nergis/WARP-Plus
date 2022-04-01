@@ -10,15 +10,30 @@ script_version = '4.0.0'
 window_title   = f"WARP-PLUS-CLOUDFLARE by Dev_Nergis (version {script_version})"
 os.system('title ' + window_title if os.name == 'nt' else 'PS1="\[\e]0;' + window_title + '\a\]"; echo $PS1')
 os.system('cls' if os.name == 'nt' else 'clear')
+
+print("  _    _   ___  ______ ______         ______  _      _   _  _____  ")
+print(" | |  | | / _ \ | ___ \| ___ \        | ___ \| |    | | | |/  ___| ")
+print(" | |  | |/ /_\ \| |_/ /| |_/ / ______ | |_/ /| |    | | | |\ `--.  ")
+print(" | |/\| ||  _  ||    / |  __/ |______||  __/ | |    | | | | `--. \ ")
+print(" \  /\  /| | | || |\ \ | |            | |    | |____| |_| |/\__/ / ")
+print("  \/  \/ \_| |_/\_| \_|\_|            \_|    \_____/ \___/ \____/  ")
+
 print ("[+] 스크립트 소개:")
 print ("[-] 이 스크립트를 사용하면 Warp에서 무제한 GB를 얻을 수 있습니다.")
 print (f"[-] 버전: {script_version}")
 print ("--------")
-print ("[+] 이 스크립트는 Navaneeth K M이 코딩했습니다.") 
-print ("[-] SITE: https://navaneethkm.gq") 
-print ("[-] TELEGRAM: navaneethkm004")
+print ("[+] 이 스크립트는 Dev_Nergis 가 코딩했습니다.") 
+print ("[-] SITE: None") 
+print ("[-] DISCORD: https://discord.gg/NnaBJj6Gn8")
 print ("--------")
-referrer  = input("[#] Enter the User ID:")
+
+print(" ||   / |  / /     // | |     //   ) )     //   ) )           //   ) )      / /        //   / /     //   ) )  ")
+print(" ||  /  | / /     //__| |    //___/ /     //___/ /           //___/ /      / /        //   / /     ((         ")
+print(" || / /||/ /     / ___  |   / ___ (      / ____ /   ____    / ____ /      / /        //   / /        \\       ")
+print(" ||/ / |  /     //    | |  //   | |     //                 //            / /        //   / /           ) )    ")
+print(" |  /  | /     //     | | //    | |    //                 //            / /____/ / ((___/ /     ((___ / /     ")
+
+referrer  = input("[#] 사용자 ID를 입력하십시오:")
 def progressBar():
 	animation     = ["[□□□□□□□□□□]","[■□□□□□□□□□]","[■■□□□□□□□□]", "[■■■□□□□□□□]", "[■■■■□□□□□□]", "[■■■■■□□□□□]", "[■■■■■■□□□□]", "[■■■■■■■□□□]", "[■■■■■■■■□□]", "[■■■■■■■■■□]"]
 	progress_anim = 0
@@ -33,7 +48,7 @@ def progressBar():
 		progress_anim += 1
 		save_anim = animation[progress_anim % len(animation)]
 		if percent == 100:
-			sys.stdout.write("\r[+] Request completed... [■■■■■■■■■■] 100%")
+			sys.stdout.write("\r[+] 요청 완료... [■■■■■■■■■■] 100%")
 			break
 
 def genString(stringLength):
@@ -85,18 +100,19 @@ while True:
 	if result == 200:
 		g += 1
 		progressBar()
-		print(f"\n[-] WORK ON ID: {referrer}")    
-		print(f"[:)] {g} GB has been successfully added to your account.")
-		print(f"[#] Total: {g} Good {b} Bad")
+		print(f"\n[-] 작업 ID: {referrer}")    
+		print(f"[:)] {g} GB가 계정에 성공적으로 추가되었습니다.")
+		print(f"[#] 총: {g} Good {b} Bad")
 		for i in range(22,0,-1):
-			sys.stdout.write(f"\r[*] After {i} seconds, a new request will be sent.")
+			sys.stdout.write(f"\r[*] {i} 초 후에 새 요청이 전송됩니다.")
 			sys.stdout.flush()
 			time.sleep(1)
 	else:
 		b += 1
-		print("[:(] Error when connecting to server.")
-		print(f"[#] Total: {g} Good {b} Bad")
+		print("[:(] 서버에 연결할 때 오류가 발생했습니다.")
+		print(f"[#] 총: {g} Good {b} Bad")
 		for i in range(10,0,-1):
-			sys.stdout.write(f"\r[*] Retrying in {i}s...")
+			sys.stdout.write(f"\r[*] 재시도 중 {i}s...")
 			sys.stdout.flush()
 			time.sleep(1)
+
