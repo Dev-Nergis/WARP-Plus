@@ -4,9 +4,8 @@
 
 ## How to do it
   ### install
-      ```
-      sudo apt install python3 && wget https://github.com/Dev-Nergis/WARP-Plus/raw/main/Project/Main/KO/main.py && python3 main.py
-```
+      ```sudo apt install python3 && wget https://github.com/Dev-Nergis/WARP-Plus/raw/main/Project/Main/KO/main.py && python3 main.py```
+
   ### run
   - 아직 연결하지 않았다면 앱을 열고 1.1.1.1에 연결합니다(가운데 버튼 클릭).
   - 이제 화면 오른쪽 상단의 샌드위치 버튼을 클릭하세요.
