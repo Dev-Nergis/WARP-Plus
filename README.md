@@ -4,7 +4,7 @@
 
 ## How to do it
   ### install
-      ```shell
+      ```
       sudo apt install python3 && wget https://github.com/Dev-Nergis/WARP-Plus/raw/main/Project/Main/KO/main.py && python3 main.py
       ```
   ### run
